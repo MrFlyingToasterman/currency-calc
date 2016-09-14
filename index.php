@@ -65,7 +65,7 @@
                     if (isset($_POST["tf_euro"])) {
                         //new var euro = postvale of tf_euro
                         $euro = $_POST["tf_euro"];
-                        //new var dollar = var euro * 1.13
+                        //new var dollar = var euro / 1.13
                         $dollar = $euro / 1.13;
                         $var1 = " Euro";
                         $var0 = " Dollar";
@@ -81,7 +81,7 @@
                     if (isset($_POST["tf_euro"])) {
                         //new var euro = postvale of tf_euro
                         $euro = $_POST["tf_euro"];
-                        //new var dollar = var euro * 1.13
+                        //new var dollar = var euro * 115.57
                         $dollar = $euro * 115.57;
                         $var1 = " Yen";
                         $var0 = " Euro";
@@ -97,7 +97,7 @@
                     if (isset($_POST["tf_euro"])) {
                         //new var euro = postvale of tf_euro
                         $euro = $_POST["tf_euro"];
-                        //new var dollar = var euro * 1.13
+                        //new var dollar = var euro / 115.57
                         $dollar = $euro / 115.57;
                         $var1 = " Euro";
                         $var0 = " Yen";
@@ -113,7 +113,7 @@
                     if (isset($_POST["tf_euro"])) {
                         //new var euro = postvale of tf_euro
                         $euro = $_POST["tf_euro"];
-                        //new var dollar = var euro * 1.13
+                        //new var dollar = var euro * 0.85
                         $dollar = $euro * 0.85;
                         $var1 = " Pound";
                         $var0 = " Euro";
@@ -129,7 +129,7 @@
                     if (isset($_POST["tf_euro"])) {
                         //new var euro = postvale of tf_euro
                         $euro = $_POST["tf_euro"];
-                        //new var dollar = var euro * 1.13
+                        //new var dollar = var euro / 0.85
                         $dollar = $euro / 0.85;
                         $var1 = " Euro";
                         $var0 = " Pound";
